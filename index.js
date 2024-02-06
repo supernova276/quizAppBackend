@@ -10,10 +10,9 @@ app.use(express.json())
 
 app.use(cors());
 
-app.get("/categories",(req,res)=>{
-   res.status(200).json(quizzes)
+app.get("/",(req,res)=>{
+    res.status(200).json("hello world")
 })
-
 quizzesRoutes(app)
 authRoutes(app)
 
