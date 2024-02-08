@@ -5,6 +5,7 @@ const app=express()
 const quizzesRoutes= require("./src/routes/quizzesRoutes")
 const authRoutes=require("./src/routes/authRoutes")
 const quizCategories=require("./src/routes/categoriesRoutes")
+const{ pageNotFound}=require("./src/middlewares/pageNotFound")
 const PORT=3000
 
 app.use(express.json())
@@ -17,6 +18,7 @@ app.get("/",(req,res)=>{
 quizzesRoutes(app)
 authRoutes(app)
 quizCategories(app)
+app.use(pageNotFound)
 
 app.listen(PORT,()=>{
     console.log("your application is running on port 3000")
