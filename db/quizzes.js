@@ -6,7 +6,7 @@ const quizzes={
             category:"World Geography",
             _id:uuid(),
             description:"you can test your knowledge in world geography",
-            image:"https://www.science.edu/acellus/wp-content/uploads/2020/03/Acellus-World-Geography.jpg",
+            image:"https://o.quizlet.com/eF8K1GlvJaFEylRV.5fswA_b.jpg",
             quiz:[
                 {
                     question:"What country has the most islands in the world",
