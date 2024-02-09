@@ -6,6 +6,7 @@ const quizzes={
             category:"World Geography",
             _id:uuid(),
             description:"you can test your knowledge in world geography",
+            image:"https://www.science.edu/acellus/wp-content/uploads/2020/03/Acellus-World-Geography.jpg",
             quiz:[
                 {
                     question:"What country has the most islands in the world",
@@ -41,6 +42,7 @@ const quizzes={
             category:"Film & TV",
             _id:uuid(),
             description:"you can test your knowledge in Film & TV",
+            image:"https://m.media-amazon.com/images/I/81UEE+XQcZL._AC_UF1000,1000_QL80_.jpg",
             quiz:[
                 {
                     question:"When was Netflix founded ?",
