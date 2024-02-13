@@ -21,7 +21,8 @@ exports.userSignUp=(req,res)=>{
     const newUser={id,username,password,emailId}
     users.data=[...users.data,newUser]
     var token=jwt.sign({id: username},SECRET,{expiresIn:'24h'})
-    res.status(200).json({message:`success-created new user-->${username}::${token}`})
+    // res.status(200).json({message:`success-created new user-->${username}::${token}`})
+    res.status(200).json({username,password,accesToken:token })
    }
 }
 
