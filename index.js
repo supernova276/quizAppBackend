@@ -20,6 +20,6 @@ authRoutes(app)
 quizCategories(app)
 app.use(pageNotFound)
 
-app.listen(PORT,()=>{
+app.listen(PORT,"0.0.0.0",()=>{
     console.log("your application is running on port 3000")
 })
