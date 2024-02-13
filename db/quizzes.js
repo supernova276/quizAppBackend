@@ -58,7 +58,7 @@ const quizzes={
                     options:[
                         {_id:uuid(),option:"dark",isCorrect:false},
                         {_id:uuid(),option:"the crown",isCorrect:false},
-                        {_id:uuid(),option:"stranger things",isCorrect:false},
+                        {_id:uuid(),option:"stranger things",isCorrect:true},
                         {_id:uuid(),option:"the summer i turned pretty",isCorrect:false},
                     ]
                 },
