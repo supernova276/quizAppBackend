@@ -6,7 +6,7 @@ const quizzesRoutes= require("./src/routes/quizzesRoutes")
 const authRoutes=require("./src/routes/authRoutes")
 const quizCategories=require("./src/routes/categoriesRoutes")
 const{ pageNotFound}=require("./src/middlewares/pageNotFound")
-const PORT=3000
+const PORT=process.env.PORT || 3000
 
 app.use(express.json())
 
